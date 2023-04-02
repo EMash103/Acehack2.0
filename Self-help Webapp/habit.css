@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+/*   
+  html {
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  } */
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image:url("todo.jpeg") ;
+    background-size: 100%, 100%;
+    background-repeat:no-repeat
+  }
+  
+  .container {
+    margin:120px auto;
+    max-width:900px;
+    width: 80%;
+    background: whitesmoke;
+    border-radius: 5px;
+    padding: 25px;
+
+  }
+  
+  h2 {
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  .habits {
+    text-align: left;
+    list-style: none;
+  }
+  
+  .habits li {
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+  }
+  
+  .habits label {
+    flex: 1;
+    cursor: pointer;
+  }
+  
+  .habits input {
+    margin-right: 12px;
+  }
+  
+  .habits input {
+    display: none;
+  }
+  
+  .habits input + label:before {
+    content: "+";
+    margin-right: 12px;
+  }
+  
+  .habits input + label span {
+    font-weight: 200;
+    font-size: 0.75rem;
+  }
+  
+  .habits input:checked + label {
+    text-decoration: line-through;
+    color: lightgrey;
+  }
+  
+  .habits button {
+    padding-left: 30px;
+    background: none;
+    margin: 5px;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+  }
+  
+  .add-habit {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+  }
+  
+  .add-habit input {
+    padding: 10px;
+    margin: 5px;
+    outline: 0;
+    border: 0;
+    border-radius: 100px;
+  }
+  
+  .add-habit select {
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .frequency {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+
+  .topnav {
+    background-color: black;
+    overflow: hidden;
+    width:90em;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: black;
+    color: white;
+  }
