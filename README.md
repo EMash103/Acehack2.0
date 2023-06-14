@@ -5,4 +5,4 @@ Hello guys, this is my take on the self- improvement web application having 5 co
 2. Bookmarker
 3. Pomodoro timer
 4. Habit Tracker 
-5. Digital Diary
+5. Digital Diary 
